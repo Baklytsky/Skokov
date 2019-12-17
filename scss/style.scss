@@ -555,3 +555,63 @@
 /*--------------------------------------------------------------------------------------------------------
 ---------------------------------------------SINGLE-POST--------------------------------------------------
 ----------------------------------------------------------------------------------------------------------*/
+.single-blog-wrapper {
+  .blog-text {
+    font-size: $smaller;
+    color: $color;
+    line-height: 2;
+  }
+  .share-post {
+    border-bottom: 2px solid $line;
+  }
+  .share-post-headline {
+    @include project-headline;
+  }
+  .share-icon {
+    @include icon-style;
+    font-size: $smaller;
+  }
+  .share-facebook {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $facebook;
+    }
+  }
+  .share-google {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $google;
+    }
+  }
+  .share-twitter {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $twitter;
+    }
+  }
+  .share-linkedin {
+    transition: all .3s linear;
+    &:hover {
+      background-color: $linkedin;
+    }
+  }
+  .share-item {
+    font-size: $smaller;
+    background-color: $yellow;
+    padding: 5px 5px;
+  }
+
+  .news-headline-post {
+    font-size: $small;
+    font-weight: 700;
+
+    a {
+      color: $black;
+      transition: all .3s linear;
+
+      &:hover {
+        color: $google;
+      }
+    }
+  }
+}

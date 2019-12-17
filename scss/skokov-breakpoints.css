@@ -127,6 +127,8 @@
     font-size: 0.3em; }
   .blog .news .footer-card-text {
     font-size: 0.3em; }
+  .blog .single-blog-wrapper {
+    padding: 0 5%; }
 
   .footer .middle {
     line-height: 1; }
@@ -170,6 +172,11 @@
     font-size: 0.7em; }
   .blog .news .footer-card-text {
     font-size: 0.7em; }
+  .blog .single-blog-wrapper .share-icon {
+    font-size: 1.2em; }
+  .blog .single-blog-wrapper .share-item {
+    font-size: 1.2em;
+    padding: 5px 5px; }
 
   .footer .footer-text {
     font-size: 0.7em; }
@@ -209,7 +216,13 @@
     border-bottom: 30px solid #F6F6F6; }
   .blog .page-style {
     font-size: 1.2em;
-    padding: 5px 10px; } }
+    padding: 5px 10px; }
+  .blog .single-blog-wrapper .post-headline {
+    font-size: 2em; }
+  .blog .single-blog-wrapper .blog-text {
+    font-size: 1em; }
+  .blog .single-blog-wrapper .share-item {
+    padding: 5px 15px; } }
 @media (min-width: 1600px) {
   aside .sidebar-item .left-column-list {
     padding-right: 40px; }
