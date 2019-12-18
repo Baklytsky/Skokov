@@ -222,7 +222,11 @@
   .blog .single-blog-wrapper .blog-text {
     font-size: 1em; }
   .blog .single-blog-wrapper .share-item {
-    padding: 5px 15px; } }
+    padding: 5px 15px; }
+  .blog .single-blog-wrapper .post {
+    min-height: 75px; }
+  .blog .comment-info {
+    font-size: 1em; } }
 @media (min-width: 1600px) {
   aside .sidebar-item .left-column-list {
     padding-right: 40px; }
@@ -234,6 +238,9 @@
   aside ul .tags-style {
     background-color: #FFEA00; }
     aside ul .tags-style a {
-      font-size: 1em; } }
+      font-size: 1em; }
+
+  .blog .single-blog-wrapper .post {
+    min-height: 55px; } }
 
 /*# sourceMappingURL=skokov-breakpoints.css.map */

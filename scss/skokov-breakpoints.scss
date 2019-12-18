@@ -381,6 +381,12 @@
       .share-item {
         padding: 5px 15px;
       }
+      .post {
+        min-height: 75px;
+      }
+    }
+    .comment-info {
+      font-size: $small;
     }
   }
 }
@@ -408,6 +414,13 @@
         a {
           font-size: $small;
         }
+      }
+    }
+  }
+  .blog {
+    .single-blog-wrapper {
+      .post {
+        min-height: 55px;
       }
     }
   }
