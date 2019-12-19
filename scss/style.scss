@@ -671,3 +671,116 @@
     }
   }
 }
+/*--------------------------------------------------------------------------------------------------------
+---------------------------------------------ABOUT-US-----------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+.section-headline-about {
+  width: 100%;
+  background: url("../img/img-portfolio/slider_bg.jpg") no-repeat center / cover;
+  padding: 3% 0;
+  h2 .headline {
+    font-size: $smaller;
+    color: $yellow;
+    background-color: $color;
+    padding: 15px 120px 15px 15px;
+  }
+}
+.about {
+  background-color: $cream;
+  padding: 60px 0;
+  .about-headline {
+    font-size: $small;
+  }
+  .about-subtitle {
+    font-size: $smaller2;
+    font-weight: 700;
+  }
+  .about-text {
+    font-size: $smaller2;
+    font-weight: 400;
+  }
+}
+.skills {
+  background-color: $cream;
+
+  .skills-title {
+    @include section-btn;
+  }
+  .skills-text {
+    font-size: $small;
+  }
+  .statistics-photoshop {
+    @include statistics;
+    &:after {
+      @include percent;
+      width: calc(90% - 45px);
+    }
+  }
+  .percent {
+    font-size: $smaller;
+    color: $yellow;
+    background-color: $black;
+    padding: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .percent-item {
+    font-size: $small;
+    color: $color;
+    z-index: 1;
+    position: absolute;
+    top: 9px;
+    left: 55px;
+  }
+  .statistics-html {
+    @include statistics;
+    &:after {
+      @include percent;
+      width: calc(87% - 45px);
+    }
+  }
+  .statistics-Illustrator {
+    @include statistics;
+    &:after {
+      @include percent;
+      width: calc(80% - 45px);
+    }
+  }
+  .statistics-php {
+    @include statistics;
+    &:after {
+      @include percent;
+      width: calc(76% - 45px);
+    }
+  }
+  .statistics-wordpress {
+    @include statistics;
+    &:after {
+      @include percent;
+      width: calc(70% - 45px);
+    }
+  }
+  .statistics-joomla {
+    @include statistics;
+    &:after {
+      @include percent;
+      width: calc(65% - 45px);
+    }
+  }
+  .statistics-javascript {
+    @include statistics;
+    &:after {
+      @include percent;
+      width: calc(75% - 45px);
+    }
+  }
+  .statistics-mysql {
+    @include statistics;
+    &:after {
+      @include percent;
+      width: calc(85% - 45px);
+    }
+  }
+}
+
