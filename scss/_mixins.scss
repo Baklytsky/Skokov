@@ -116,3 +116,17 @@
   background-color: $color;
   padding: 5px 10px;
 }
+@mixin statistics {
+  max-width: 486px;
+  height: 37px;
+  background-color: $color;
+  position: relative;
+}
+@mixin percent {
+  content: "";
+  display: block;
+  height: 37px;
+  background-color: $yellow;
+  position: absolute;
+  left: 45px;
+}

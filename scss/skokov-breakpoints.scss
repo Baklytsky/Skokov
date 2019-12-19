@@ -295,6 +295,14 @@
       }
     }
   }
+  .about {
+    .about-subtitle {
+      font-size: $smaller;
+    }
+    .about-text {
+      font-size: $smaller;
+    }
+  }
   .footer {
     .footer-text {
       font-size: $smaller;
@@ -387,6 +395,19 @@
     }
     .comment-info {
       font-size: $small;
+    }
+  }
+  .about {
+    .about-headline {
+      font-size: $big;
+    }
+
+    .about-subtitle {
+      font-size: $smaller2;
+    }
+
+    .about-text {
+      font-size: $smaller2;
     }
   }
 }

@@ -546,4 +546,158 @@
     color: #FFEA00;
     border-bottom: 2px solid #FFEA00; }
 
+/*--------------------------------------------------------------------------------------------------------
+---------------------------------------------ABOUT-US-----------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+.section-headline-about {
+  width: 100%;
+  background: url("../img/img-portfolio/slider_bg.jpg") no-repeat center/cover;
+  padding: 3% 0; }
+  .section-headline-about h2 .headline {
+    font-size: 0.7em;
+    color: #FFEA00;
+    background-color: #424146;
+    padding: 15px 120px 15px 15px; }
+
+.about {
+  background-color: #F6F6F6;
+  padding: 60px 0; }
+  .about .about-headline {
+    font-size: 1em; }
+  .about .about-subtitle {
+    font-size: 0.8em;
+    font-weight: 700; }
+  .about .about-text {
+    font-size: 0.8em;
+    font-weight: 400; }
+
+.skills {
+  background-color: #F6F6F6; }
+  .skills .skills-title {
+    font-size: 1em;
+    color: #FFEA00;
+    background-color: #424146;
+    padding: 2px 16px; }
+  .skills .skills-text {
+    font-size: 1em; }
+  .skills .statistics-photoshop {
+    max-width: 486px;
+    height: 37px;
+    background-color: #424146;
+    position: relative; }
+    .skills .statistics-photoshop:after {
+      content: "";
+      display: block;
+      height: 37px;
+      background-color: #FFEA00;
+      position: absolute;
+      left: 45px;
+      width: calc(90% - 45px); }
+  .skills .percent {
+    font-size: 0.7em;
+    color: #FFEA00;
+    background-color: #000;
+    padding: 12px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .skills .percent-item {
+    font-size: 1em;
+    color: #424146;
+    z-index: 1;
+    position: absolute;
+    top: 9px;
+    left: 55px; }
+  .skills .statistics-html {
+    max-width: 486px;
+    height: 37px;
+    background-color: #424146;
+    position: relative; }
+    .skills .statistics-html:after {
+      content: "";
+      display: block;
+      height: 37px;
+      background-color: #FFEA00;
+      position: absolute;
+      left: 45px;
+      width: calc(87% - 45px); }
+  .skills .statistics-Illustrator {
+    max-width: 486px;
+    height: 37px;
+    background-color: #424146;
+    position: relative; }
+    .skills .statistics-Illustrator:after {
+      content: "";
+      display: block;
+      height: 37px;
+      background-color: #FFEA00;
+      position: absolute;
+      left: 45px;
+      width: calc(80% - 45px); }
+  .skills .statistics-php {
+    max-width: 486px;
+    height: 37px;
+    background-color: #424146;
+    position: relative; }
+    .skills .statistics-php:after {
+      content: "";
+      display: block;
+      height: 37px;
+      background-color: #FFEA00;
+      position: absolute;
+      left: 45px;
+      width: calc(76% - 45px); }
+  .skills .statistics-wordpress {
+    max-width: 486px;
+    height: 37px;
+    background-color: #424146;
+    position: relative; }
+    .skills .statistics-wordpress:after {
+      content: "";
+      display: block;
+      height: 37px;
+      background-color: #FFEA00;
+      position: absolute;
+      left: 45px;
+      width: calc(70% - 45px); }
+  .skills .statistics-joomla {
+    max-width: 486px;
+    height: 37px;
+    background-color: #424146;
+    position: relative; }
+    .skills .statistics-joomla:after {
+      content: "";
+      display: block;
+      height: 37px;
+      background-color: #FFEA00;
+      position: absolute;
+      left: 45px;
+      width: calc(65% - 45px); }
+  .skills .statistics-javascript {
+    max-width: 486px;
+    height: 37px;
+    background-color: #424146;
+    position: relative; }
+    .skills .statistics-javascript:after {
+      content: "";
+      display: block;
+      height: 37px;
+      background-color: #FFEA00;
+      position: absolute;
+      left: 45px;
+      width: calc(75% - 45px); }
+  .skills .statistics-mysql {
+    max-width: 486px;
+    height: 37px;
+    background-color: #424146;
+    position: relative; }
+    .skills .statistics-mysql:after {
+      content: "";
+      display: block;
+      height: 37px;
+      background-color: #FFEA00;
+      position: absolute;
+      left: 45px;
+      width: calc(85% - 45px); }
+
 /*# sourceMappingURL=style.css.map */

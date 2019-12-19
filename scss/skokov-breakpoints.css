@@ -178,6 +178,11 @@
     font-size: 1.2em;
     padding: 5px 5px; }
 
+  .about .about-subtitle {
+    font-size: 0.7em; }
+  .about .about-text {
+    font-size: 0.7em; }
+
   .footer .footer-text {
     font-size: 0.7em; }
   .footer .middle {
@@ -226,7 +231,14 @@
   .blog .single-blog-wrapper .post {
     min-height: 75px; }
   .blog .comment-info {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .about .about-headline {
+    font-size: 1.5em; }
+  .about .about-subtitle {
+    font-size: 0.8em; }
+  .about .about-text {
+    font-size: 0.8em; } }
 @media (min-width: 1600px) {
   aside .sidebar-item .left-column-list {
     padding-right: 40px; }
