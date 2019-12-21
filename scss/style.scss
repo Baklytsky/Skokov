@@ -783,4 +783,96 @@
     }
   }
 }
+.our-team {
+  background-color: $cream;
+
+  .team-title {
+    @include section-btn;
+  }
+  .team-text {
+    font-size: $small;
+  }
+
+  .professions {
+    @include professions;
+    transition: all .3s linear;
+    &:hover {
+      background-color: $black;
+    }
+  }
+
+  .web-designer {
+    &:after {
+      content: url("../img/img-about/photo_1.png");
+      @include circle-photo;
+    }
+    &:hover:after {
+      box-shadow: 0 0 8px 2px $black;
+    }
+  }
+
+  .web-designer-second {
+    &:after {
+      content: url("../img/img-about/photo_2.png");
+      @include circle-photo;
+    }
+    &:hover:after {
+      box-shadow: 0 0 8px 2px $black;
+    }
+  }
+  .front-end-developer {
+    &:after {
+      content: url("../img/img-about/photo_3.png");
+      @include circle-photo;
+    }
+    &:hover:after {
+      box-shadow: 0 0 8px 2px $black;
+    }
+  }
+  .web-developer {
+    &:after {
+      content: url("../img/img-about/photo_4.png");
+      @include circle-photo;
+    }
+    &:hover:after {
+      box-shadow: 0 0 8px 2px $black;
+    }
+  }
+  .web-developer-second {
+    &:after {
+      content: url("../img/img-about/photo_5.png");
+      @include circle-photo;
+    }
+    &:hover:after {
+      box-shadow: 0 0 8px 2px $black;
+    }
+  }
+  .markup-developer {
+    &:after {
+      content: url("../img/img-about/photo_6.png");
+      @include circle-photo;
+    }
+    &:hover:after {
+      box-shadow: 0 0 8px 2px $black;
+    }
+  }
+  .cms-master {
+    &:after {
+      content: url("../img/img-about/photo_7.png");
+      @include circle-photo;
+    }
+    &:hover:after {
+      box-shadow: 0 0 8px 2px $black;
+    }
+  }
+  .send-cv {
+    &:after {
+      content: url("../img/img-about/photo_8.png");
+      @include circle-photo;
+    }
+    &:hover:after {
+      box-shadow: 0 0 8px 2px $black;
+    }
+  }
+}
 

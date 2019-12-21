@@ -1,16 +1,17 @@
 {
   "name": "skokov",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
     "gulp-cleancss": "^0.2.2",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/Baklytsky/Skokov/issues"
   },
-  "homepage": "https://github.com/Baklytsky/Skokov#readme"
+  "homepage": "https://github.com/Baklytsky/Skokov#readme",
+  "description": ""
 }
