@@ -700,4 +700,128 @@
       left: 45px;
       width: calc(85% - 45px); }
 
+.our-team {
+  background-color: #F6F6F6; }
+  .our-team .team-title {
+    font-size: 1em;
+    color: #FFEA00;
+    background-color: #424146;
+    padding: 2px 16px; }
+  .our-team .team-text {
+    font-size: 1em; }
+  .our-team .professions {
+    width: 194px;
+    height: 21px;
+    font-size: 1em;
+    color: #FFEA00;
+    background-color: #424146;
+    margin-top: 250px;
+    transition: all .3s linear; }
+    .our-team .professions:hover {
+      background-color: #000; }
+  .our-team .web-designer:after {
+    content: url("../img/img-about/photo_1.png");
+    display: block;
+    width: 194px;
+    height: 194px;
+    position: absolute;
+    bottom: 30px;
+    border: 3px solid #FFEA00;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all .3s linear; }
+  .our-team .web-designer:hover:after {
+    box-shadow: 0 0 8px 2px #000; }
+  .our-team .web-designer-second:after {
+    content: url("../img/img-about/photo_2.png");
+    display: block;
+    width: 194px;
+    height: 194px;
+    position: absolute;
+    bottom: 30px;
+    border: 3px solid #FFEA00;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all .3s linear; }
+  .our-team .web-designer-second:hover:after {
+    box-shadow: 0 0 8px 2px #000; }
+  .our-team .front-end-developer:after {
+    content: url("../img/img-about/photo_3.png");
+    display: block;
+    width: 194px;
+    height: 194px;
+    position: absolute;
+    bottom: 30px;
+    border: 3px solid #FFEA00;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all .3s linear; }
+  .our-team .front-end-developer:hover:after {
+    box-shadow: 0 0 8px 2px #000; }
+  .our-team .web-developer:after {
+    content: url("../img/img-about/photo_4.png");
+    display: block;
+    width: 194px;
+    height: 194px;
+    position: absolute;
+    bottom: 30px;
+    border: 3px solid #FFEA00;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all .3s linear; }
+  .our-team .web-developer:hover:after {
+    box-shadow: 0 0 8px 2px #000; }
+  .our-team .web-developer-second:after {
+    content: url("../img/img-about/photo_5.png");
+    display: block;
+    width: 194px;
+    height: 194px;
+    position: absolute;
+    bottom: 30px;
+    border: 3px solid #FFEA00;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all .3s linear; }
+  .our-team .web-developer-second:hover:after {
+    box-shadow: 0 0 8px 2px #000; }
+  .our-team .markup-developer:after {
+    content: url("../img/img-about/photo_6.png");
+    display: block;
+    width: 194px;
+    height: 194px;
+    position: absolute;
+    bottom: 30px;
+    border: 3px solid #FFEA00;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all .3s linear; }
+  .our-team .markup-developer:hover:after {
+    box-shadow: 0 0 8px 2px #000; }
+  .our-team .cms-master:after {
+    content: url("../img/img-about/photo_7.png");
+    display: block;
+    width: 194px;
+    height: 194px;
+    position: absolute;
+    bottom: 30px;
+    border: 3px solid #FFEA00;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all .3s linear; }
+  .our-team .cms-master:hover:after {
+    box-shadow: 0 0 8px 2px #000; }
+  .our-team .send-cv:after {
+    content: url("../img/img-about/photo_8.png");
+    display: block;
+    width: 194px;
+    height: 194px;
+    position: absolute;
+    bottom: 30px;
+    border: 3px solid #FFEA00;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all .3s linear; }
+  .our-team .send-cv:hover:after {
+    box-shadow: 0 0 8px 2px #000; }
+
 /*# sourceMappingURL=style.css.map */
