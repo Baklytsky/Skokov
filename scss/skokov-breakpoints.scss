@@ -212,6 +212,18 @@
       padding: 0 5%;
     }
   }
+  .section-headline-about {
+    padding: 2% 0;
+    h2 .headline {
+      font-size: $small;
+    }
+  }
+  .section-headline-contact {
+    padding: 2% 0;
+    h2 .headline {
+      font-size: $small;
+    }
+  }
   .footer {
     .middle {
       line-height: 1;
@@ -408,6 +420,14 @@
 
     .about-text {
       font-size: $smaller2;
+    }
+  }
+  .message-form {
+    .contact-text {
+    font-size: $small;
+    }
+    .mail-link {
+      font-size: $small;
     }
   }
 }

@@ -824,4 +824,96 @@
   .our-team .send-cv:hover:after {
     box-shadow: 0 0 8px 2px #000; }
 
+/*--------------------------------------------------------------------------------------------------------
+---------------------------------------------CONTACT------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+.section-headline-contact {
+  width: 100%;
+  background: url("../img/img-portfolio/slider_bg.jpg") no-repeat center/cover;
+  padding: 3% 0; }
+  .section-headline-contact h2 .headline {
+    font-size: 0.7em;
+    color: #FFEA00;
+    background-color: #424146;
+    padding: 15px 120px 15px 15px; }
+
+.contact {
+  background-color: #F6F6F6; }
+
+#map {
+  width: 100%;
+  height: 650px; }
+
+.message-form {
+  background-color: #F6F6F6; }
+  .message-form .message-headline {
+    font-size: 1.2em;
+    color: #FFEA00;
+    background-color: #424146;
+    padding: 5px 10px; }
+  .message-form .message-form-style {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px; }
+  .message-form .form-comment {
+    width: 100%;
+    height: 170px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px; }
+  .message-form .comment-btn {
+    color: #FFF;
+    background-color: #000;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    transition: all .3s linear; }
+    .message-form .comment-btn:hover {
+      color: #FFEA00;
+      border-bottom: 2px solid #FFEA00; }
+  .message-form .address-list:before {
+    content: "";
+    background-image: url("../img/adress.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding-right: 40px;
+    margin-top: 10px; }
+  .message-form .phone-list:before {
+    content: "";
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding-right: 40px;
+    margin-top: 10px; }
+  .message-form .mail-list:before {
+    content: "";
+    background-image: url("../img/email.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding-right: 40px;
+    margin-top: 10px; }
+  .message-form .contact-text {
+    font-size: 0.7em;
+    color: #FFF;
+    line-height: 1.7;
+    font-weight: 700;
+    color: #424146; }
+  .message-form .mail-link {
+    font-size: 0.7em;
+    color: #FFF;
+    line-height: 1.7;
+    font-weight: 700;
+    color: #FFEA00;
+    background-color: #424146;
+    padding: 0 2px; }
+
 /*# sourceMappingURL=style.css.map */

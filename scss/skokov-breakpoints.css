@@ -130,6 +130,16 @@
   .blog .single-blog-wrapper {
     padding: 0 5%; }
 
+  .section-headline-about {
+    padding: 2% 0; }
+    .section-headline-about h2 .headline {
+      font-size: 1em; }
+
+  .section-headline-contact {
+    padding: 2% 0; }
+    .section-headline-contact h2 .headline {
+      font-size: 1em; }
+
   .footer .middle {
     line-height: 1; }
   .footer .footer-text {
@@ -238,7 +248,12 @@
   .about .about-subtitle {
     font-size: 0.8em; }
   .about .about-text {
-    font-size: 0.8em; } }
+    font-size: 0.8em; }
+
+  .message-form .contact-text {
+    font-size: 1em; }
+  .message-form .mail-link {
+    font-size: 1em; } }
 @media (min-width: 1600px) {
   aside .sidebar-item .left-column-list {
     padding-right: 40px; }

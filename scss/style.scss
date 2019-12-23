@@ -875,4 +875,91 @@
     }
   }
 }
+/*--------------------------------------------------------------------------------------------------------
+---------------------------------------------CONTACT------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+.section-headline-contact {
+  width: 100%;
+  background: url("../img/img-portfolio/slider_bg.jpg") no-repeat center / cover;
+  padding: 3% 0;
+  h2 .headline {
+    font-size: $smaller;
+    color: $yellow;
+    background-color: $color;
+    padding: 15px 120px 15px 15px;
+  }
+}
+.contact {
+  background-color: $cream;
+}
+#map {
+  width: 100%;
+  height: 650px;
+}
+.message-form {
+  background-color: $cream;
+  .message-headline {
+    @include project-headline;
+  }
+  .message-form-style {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .form-comment {
+    width: 100%;
+    height: 170px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .comment-btn {
+    color: $white;
+    background-color: $black;
+    border: none;
+    border-bottom: 2px solid $black;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    transition: all .3s linear;
 
+    &:hover {
+      color: $yellow;
+      border-bottom: 2px solid $yellow;
+    }
+  }
+  .address-list {
+    &:before {
+      content: "";
+      background-image: url("../img/adress.png");
+      @include list-icon;
+    }
+  }
+  .phone-list {
+    &:before {
+      content: "";
+      background-image: url("../img/phone.png");
+      @include list-icon;
+    }
+  }
+  .mail-list {
+    &:before {
+      content: "";
+      background-image: url("../img/email.png");
+      @include list-icon;
+    }
+  }
+  .contact-text {
+    @include footer-text;
+    font-weight: 700;
+    color: $color;
+  }
+  .mail-link {
+    @include footer-text;
+    font-weight: 700;
+    color: $yellow;
+    background-color: $color;
+    padding: 0 2px;
+  }
+}
