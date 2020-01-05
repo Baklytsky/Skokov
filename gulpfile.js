@@ -12,19 +12,24 @@ gulp.task('styles', function () {
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({browsers: ['last 3 versions'], cascade: false}))
         .pipe(cleancss())
-        .pipe(browserSync.stream())
-        .pipe(gulp.dest('./css/'));
-
+        .pipe(gulp.dest('./css/'))
+        .pipe(browserSync.stream());
 });
 
-
-gulp.task('watch', function () {
-    gulp.watch('./scss/**/*.scss', gulp.parallel('styles'));
+gulp.task('serve', function() {
     browserSync.init({
         server: {
             baseDir: "./"
         }
     });
+    gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch("./js/**/*.js").on('change', browserSync.reload);
 });
 
-gulp.task('default',  gulp.parallel('styles', 'watch'));
+gulp.task('watch', function () {
+    gulp.watch('./scss/**/*.scss', gulp.series('styles'));
+});
+
+gulp.task('default',  gulp.series(
+    gulp.parallel('styles', 'watch', 'serve')
+));

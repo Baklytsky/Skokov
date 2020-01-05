@@ -224,6 +224,30 @@
       font-size: $small;
     }
   }
+  .section-headline-404 {
+    padding: 2% 0;
+    h2 .headline {
+      font-size: $small;
+    }
+  }
+  .error {
+    h1 {
+      font-size: $error-big;
+    }
+    .error-text {
+      font-size: $error-text;
+      .bigger-text {
+        font-size: $icon-arrow;
+      }
+    }
+    .error-btn {
+      padding: 8px 15px;
+    }
+    .btn-choice {
+      padding: 8px 10px 10px;
+      margin: 0 15px;
+    }
+  }
   .footer {
     .middle {
       line-height: 1;
