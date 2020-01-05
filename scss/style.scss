@@ -963,3 +963,49 @@
     padding: 0 2px;
   }
 }
+/*--------------------------------------------------------------------------------------------------------
+---------------------------------------------404----------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+.section-headline-404 {
+  width: 100%;
+  background: url("../img/img-portfolio/slider_bg.jpg") no-repeat center / cover;
+  padding: 3% 0;
+  h2 .headline {
+    font-size: $smaller;
+    color: $yellow;
+    background-color: $color;
+    padding: 15px 120px 15px 15px;
+  }
+}
+.error {
+  background-color: $cream;
+  padding: 10% 0 10%;
+  h1 {
+    font-size: $error-size;
+    line-height: 1;
+  }
+  .error-text {
+    font-size: $icon-arrow;
+    line-height: 0.7;
+    color: $yellow;
+    background-color: $color;
+    margin-bottom: 50px;
+    .bigger-text {
+      font-size: $icon-arrow;
+    }
+  }
+  .error-btn {
+    @include btn;
+    transition: all .3s linear;
+
+    &:hover {
+      color: $yellow;
+      border-bottom: 2px solid $yellow;
+    }
+  }
+  .btn-choice {
+    color: $black;
+    background-color: $yellow;
+    padding: 5px 5px 7px;
+  }
+}
